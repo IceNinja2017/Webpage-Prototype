@@ -1,4 +1,5 @@
 # Webpage-Prototype
+A Prototype for a Bartering Webpage, this is a school project as for our Final Defence
 ## **Assigned Jobs for each Members**
 
 ### Designing:
