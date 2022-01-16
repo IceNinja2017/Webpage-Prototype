@@ -16,46 +16,38 @@
         <script src="https://kit.fontawesome.com/ec5b4621a1.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav id="nav" class="navbar navbar-light bg-light">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1"><img src="assets/image/logo.png" id="nav-logo" alt="Logo" class="d-inline-block align-text-top"></span>
-            </div>
-            <div id="nav-main">
-                <div id="nave-button">
-                    <ul>
-                        <div id="nav-contacts">
-                            <p id="contact-text">Follow us on</p>
-                            <ul>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-facebook-square"></i></a>
-                            </ul>
-                        </div>
-                        <div id="nav-help">
-                            <i class="far fa-question-circle"></i>
-                            <p id="help">Help</p>
-                        </div>
-                        <div id="nav-notif">
-                            <i class="fas fa-bell"></i>
-                            <p id="notification">Notification</p>
-                        </div>
-                        <div id="nav-usr">
-                            <i class="fas fa-user-circle"></i>
-                            <p id="usr">User123</p>
-                        </div>
+                <span class="navbar-brand mb-0 h1"><img src="assets/image/logo.png" id="nav-logo" alt="Logo" class="d-inline-block align-text-top"></span>
+                <form id="nav-form" class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-content">
+                    <ul id="nav-buttons" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="far fa-question-circle"> Help</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-bell"> Notification</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"> Cart</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-user-circle"> User123</i></a>
+                        </li>
                     </ul>
-                </div>
-                <div id="nav-form">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                    <i class="fas fa-shopping-cart"></i>
                 </div>
             </div>
         </nav>
 
-        <div id="content">
+        <div id="content" class="container-fluid">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ratione voluptatem suscipit quasi dolores incidunt veniam architecto numquam a tenetur explicabo perferendis, praesentium doloribus. Adipisci architecto veritatis reiciendis fuga aspernatur?</p>
+            <!--Carosel Slide-->
             <div id="carosel-background">
                 <div id="carousel-top" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -84,10 +76,61 @@
                     </button>
                 </div>
             </div>
+            <br>
+            <!--Cards-->
+            <div class="row">
+                <div class="col-sm">
+                    <div id="category1" class="card" style="width: 18rem;">
+                        <img src="https://www.annmariegianni.com/wp-content/uploads/2016/03/organic-skincare-products.jpg" class="card-img-top" alt="category1">
+                        <div class="card-body">
+                          <h5 class="card-title">Category1</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div id="category2" class="card" style="width: 18rem;">
+                        <img src="https://designhooks.com/wp-content/uploads/2018/07/Cosmetics_Preview1-1.jpg" class="card-img-top" alt="category2">
+                        <div class="card-body">
+                          <h5 class="card-title">Category2</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div id="category3" class="card" style="width: 18rem;">
+                        <img src="https://www.skincare.com/-/media/images/skincare/2019/08_august/27-house-99-best-sellers/topbestsellingmensskincareproductsathouse99herosdc082319.jpg" class="card-img-top" alt="category3">
+                        <div class="card-body">
+                          <h5 class="card-title">Category3</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div id="category4" class="card" style="width: 18rem;">
+                        <img src="https://www.foodbusinessnews.net/ext/resources/2019/7/HelloWater_Lead.jpg?height=635&t=1563998092&width=1200" class="card-img-top" alt="category4">
+                        <div class="card-body">
+                          <h5 class="card-title">More</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="footer">
+        <div id="footer" class="container-fluid">
             <p>this is the footer</p>
+            <div id="nav-contacts">
+                <p id="contact-text">Follow us on</p>
+                <ul>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                </ul>
+            </div>
         </div>
     </body>
 </html>
