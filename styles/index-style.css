@@ -1,9 +1,9 @@
 /* Imports */
-
 *{
     padding: 0;
     margin: 0;
 }
+
 /* Navigation */
 .navbar{
     background-color: rgb(0, 195, 255);
@@ -13,12 +13,8 @@
     width: 53%;
 }
 
-/*#cards img{
-    height: 1.8in;
-}
-#cards .card{
-    width: 18rem;
-}*/
+/* MESSAGE SYSTEM */
+
 
 /* Body */
 #content{
