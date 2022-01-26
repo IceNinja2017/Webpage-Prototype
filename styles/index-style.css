@@ -5,6 +5,10 @@
     margin: 0;
 }
 /* Navigation */
+.navbar{
+    background-color: rgb(0, 195, 255);
+}
+
 #nav-form{
     width: 53%;
 }
@@ -17,11 +21,33 @@
 }*/
 
 /* Body */
+#content{
+    background-color: rgb(241, 241, 241);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 #cards img{
     width: 150px;
     height: 150px;
     object-fit:cover;
     border-radius: 50%
+}
+#cards .col-sm{
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+}
+#cards a{
+    text-align: center;
+    color: #636363;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 0px 5px;
+}
+#cards a:hover{
+    color: black;
+    transition: 0.6s;
 }
 #carosel-background img{
     height: 400px;
@@ -95,4 +121,5 @@
     #carosel-background img{
         height: 200px;
     }
+
 }
