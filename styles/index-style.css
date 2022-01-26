@@ -192,6 +192,9 @@ section button{
         display: block;
         visibility: hidden;
     }
+    #nav-logo{
+        width: 70px;
+    }
 }
 /* Body */
 #content{
