@@ -182,10 +182,15 @@ section button{
     .chat-popup{
         bottom: 120px;
         right:10%;
-        width: 65vw;
+        width: 80vw;
     }
-    .input-area{
-        
+    .input-area {
+        display: flexbox;
+        justify-content: center;
+    }
+    #emoji-btn{
+        display: block;
+        visibility: hidden;
     }
 }
 /* Body */
