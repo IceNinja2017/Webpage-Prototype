@@ -44,6 +44,7 @@
     font-size: 14px;
     font-family: inherit;
     padding: 0px 5px;
+    text-decoration: none;
 }
 #cards a:hover{
     color: black;
@@ -52,6 +53,24 @@
 #carosel-background img{
     height: 400px;
     object-fit:cover;
+}
+#recents, #recents h3{
+    padding-top: 20px;
+}
+#recents a{
+    color: #636363;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 0px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#recents a:hover{
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
 }
 /* Footer */
 #footer img{
