@@ -8,7 +8,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/index-style.css">
-        <script src="javascript/index-script.js"></script>
 
         <!--BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -50,7 +49,7 @@
         <div id="content" class="container-fluid">
             <!--Carosel Slide-->
             <div id="carosel-background">
-                <div id="carousel-top" class="carousel slide" data-bs-ride="carousel">
+                <div id="carousel-top" class="carousel slide d-block w-50 mx-auto" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -58,13 +57,13 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <a href="#"><img src="assets/image/carosel-top/slide1.jpg" class="d-block w-100" height="400" alt="image 1"></a>
+                        <a href="#"><img src="assets/image/carosel-top/slide1.jpg" class="d-block w-100" alt="image 1"></a>
                       </div>
                       <div class="carousel-item">
-                        <a href="#"><img src="assets/image/carosel-top/slide2.jpg" class="d-block w-100" height="400" alt="image 2"></a>
+                        <a href="#"><img src="assets/image/carosel-top/slide2.jpg" class="d-block w-100" alt="image 2"></a>
                       </div>
                       <div class="carousel-item">
-                        <a href="#"><img src="assets/image/carosel-top/slide3.jpg" class="d-block w-100" height="400" alt="image 3"></a>
+                        <a href="#"><img src="assets/image/carosel-top/slide3.jpg" class="d-block w-100" alt="image 3"></a>
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carousel-top" data-bs-slide="prev">
@@ -78,58 +77,111 @@
                 </div>
             </div>
             <br>
-            <!--Cards-->
-            <div class="row">
-                <div class="col-sm">
-                    <div id="category1" class="card" style="width: 18rem;">
-                        <img src="https://www.annmariegianni.com/wp-content/uploads/2016/03/organic-skincare-products.jpg" class="card-img-top" alt="category1" style="height: 1.8in;">
-                        <div class="card-body">
-                          <h5 class="card-title">Category1</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Button</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div id="category2" class="card" style="width: 18rem;">
-                        <img src="https://designhooks.com/wp-content/uploads/2018/07/Cosmetics_Preview1-1.jpg" class="card-img-top" alt="category2" style="height: 1.8in;">
-                        <div class="card-body">
-                          <h5 class="card-title">Category2</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Button</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div id="category3" class="card" style="width: 18rem;">
-                        <img src="https://www.skincare.com/-/media/images/skincare/2019/08_august/27-house-99-best-sellers/topbestsellingmensskincareproductsathouse99herosdc082319.jpg" class="card-img-top" alt="category3" style="height: 1.8in;">
-                        <div class="card-body">
-                          <h5 class="card-title">Category3</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Button</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                  <div id="category4" class="card" style="width: 18rem;">
-                      <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2020/07/Nintendo-Consoles-Featured-Image-1.jpg" class="card-img-top" alt="category3" style="height: 1.8in;">
-                      <div class="card-body">
-                        <h5 class="card-title">Category4</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Button</a>
-                      </div>
-                  </div>
+            <!--Category-->
+            <div id="cards" class="row">
+              <div class="container-flex">
+                <h3>Catagory</h3>
               </div>
-                <div class="col-sm">
-                    <div id="categorymore" class="card" style="width: 18rem;">
-                        <img src="https://www.foodbusinessnews.net/ext/resources/2019/7/HelloWater_Lead.jpg?height=635&t=1563998092&width=1200" class="card-img-top" alt="categorymore" style="height: 1.8in;">
-                        <div class="card-body">
-                          <h5 class="card-title">More</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Button</a>
-                        </div>
-                    </div>
-                </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://yb4ke1guf9g32qn4pnt1k17m-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/inventory-management-for-retail-clothing-store-scaled.jpg" alt="Clothing">
+                  </div>
+                  <div class="name-container">
+                    <span>Clothing</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://sardarandsons.biz/media/catalog/category/baby.jpg" alt="Baby Products">
+                  </div>
+                  <div class="name-container">
+                    <span>Baby Pruducts</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://www.annmariegianni.com/wp-content/uploads/2016/03/organic-skincare-products.jpg" alt="Self-Care Products">
+                  </div>
+                  <div class="name-container">
+                    <span>Self-Care Products</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2020/07/Nintendo-Consoles-Featured-Image-1.jpg" alt="Electronic Decives">
+                  </div>
+                  <div class="name-container">
+                    <span>Electronics Devices</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://i.pinimg.com/736x/b4/5e/27/b45e272f9235214d5fb1a03e4f9c1e4f.jpg" alt="Electronic Appliances">
+                  </div>
+                  <div class="name-container">
+                    <span>Electronic Appliances</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://whav.net/wp-content/uploads/2019/04/sports_generic_equipment.jpg" alt="Sports and Lifestyle">
+                  </div>
+                  <div class="name-container">
+                    <span>Sports and Lifestyle</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://i.redd.it/plmaovzkcu1y.jpg" alt="Toys and Collectibles">
+                  </div>
+                  <div class="name-container">
+                    <span>Toys and Collectibles</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://peacockwater.com/wp-content/uploads/2016/11/Depositphotos_84191530_m-2015.jpg" alt="Home Appliances">
+                  </div>
+                  <div class="name-container">
+                    <span>Home Appliances</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://s3.amazonaws.com/tc-us-prod/download_resource/downloads/2488/pet-products-non-food-master-thumbnail-v1.jpg" alt="Pet Care">
+                  </div>
+                  <div class="name-container">
+                    <span>Pet Care</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="#">
+                  <div class="image-container">
+                    <img src="https://static.vecteezy.com/system/resources/previews/000/411/252/original/character-illustration-of-people-holding-voucher-icons-vector.jpg" alt="other">
+                  </div>
+                  <div class="name-container">
+                    <span>More</span>
+                  </div>
+                </a>
+              </div>
             </div>
         </div>
 
@@ -158,21 +210,21 @@
                 <div id="foot-payment" class="col">
                     <h1>Payment</h1>
                     <ul>
-                      <li><img src="https://clipground.com/images/visa-logo-png-6.png" alt="Visa" style="width: 100px;"></li>
-                      <li><img src="https://logosmarcas.net/wp-content/uploads/2020/09/MasterCard-Logo-1979-1990.png" alt="MasterCard" style="width: 100px;"></li>
-                      <li><img src="https://logos-download.com/wp-content/uploads/2016/03/PayPal_Logo_2007.png" alt="Paypal" style="width: 100px;"></li>
-                      <li><img src="https://s3.amazonaws.com/apple-platypus-production/assets/attachments/5df2/2077/6f75/3236/bbd7/9a1e/original/GCash_Horizontal_-_Full_Blue_(Transparent).png?1576149111" alt="GCash" style="width: 100px;"></li>
-                      <li><img src="https://www.panagbengaflowerfestival.com/wp-content/uploads/2019/02/paymaya-logo-png-550x197.png" alt="PayMaya" style="width: 100px;"></li>
+                      <li><img src="https://clipground.com/images/visa-logo-png-6.png" alt="Visa"></li>
+                      <li><img src="https://logosmarcas.net/wp-content/uploads/2020/09/MasterCard-Logo-1979-1990.png" alt="MasterCard"></li>
+                      <li><img src="https://logos-download.com/wp-content/uploads/2016/03/PayPal_Logo_2007.png" alt="Paypal"></li>
+                      <li><img src="https://s3.amazonaws.com/apple-platypus-production/assets/attachments/5df2/2077/6f75/3236/bbd7/9a1e/original/GCash_Horizontal_-_Full_Blue_(Transparent).png?1576149111" alt="GCash"></li>
+                      <li><img src="https://www.panagbengaflowerfestival.com/wp-content/uploads/2019/02/paymaya-logo-png-550x197.png" alt="PayMaya"></li>
                     </ul>
                 </div>
                 <div id="foot-logistics" class="col">
                     <h1>Logistics</h1>
                     <ul>
-                      <li><img src="https://www.enterpriseitnews.com.my/wp-content/uploads/2019/11/ninja-van-logo.png" alt="Ninja Van" style="width: 100px;"></li>
-                      <li><img src="https://www.jtexpress.ph/static/images/logo-red.png" alt="J&T" style="width: 100px;"></li>
-                      <li><img src="https://www.phil4you.nl/wp-content/uploads/2016/08/lbc_logo-300x120.png" alt="LBC" style="width: 100px;"></li>
-                      <li><img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t31.18172-8/1669679_1110052339010982_2341285856814664096_o.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEn-DdeQ4MItOKvsF_AYw9uYi3QdMcdzOtiLdB0xx3M64UWftsQo3sNoK9yxhDlJsWnwqPbQp1RxCSmp2Wlc6g7&_nc_ohc=ojK_ocNX12cAX9KoUZ2&_nc_ht=scontent.fceb2-2.fna&oh=00_AT-oRfBLKcHWdu0FQOcG4U7UWzy0E8LmIPdcsfxn--pGnA&oe=620A1E89" alt="2Go Express" style="width: 100px;"></li>
-                      <li><img src="https://www.xpressmoney.com/storage/partner_logos/M-%20lhuillier-%20Philippines5c027382baa21.png" alt="M Lhuillier" style="width: 100px;"></li>
+                      <li><img src="https://www.enterpriseitnews.com.my/wp-content/uploads/2019/11/ninja-van-logo.png" alt="Ninja Van"></li>
+                      <li><img src="https://www.jtexpress.ph/static/images/logo-red.png" alt="J&T"></li>
+                      <li><img src="https://www.phil4you.nl/wp-content/uploads/2016/08/lbc_logo-300x120.png" alt="LBC"></li>
+                      <li><img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t31.18172-8/1669679_1110052339010982_2341285856814664096_o.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEn-DdeQ4MItOKvsF_AYw9uYi3QdMcdzOtiLdB0xx3M64UWftsQo3sNoK9yxhDlJsWnwqPbQp1RxCSmp2Wlc6g7&_nc_ohc=ojK_ocNX12cAX9KoUZ2&_nc_ht=scontent.fceb2-2.fna&oh=00_AT-oRfBLKcHWdu0FQOcG4U7UWzy0E8LmIPdcsfxn--pGnA&oe=620A1E89" alt="2Go Express"></li>
+                      <li><img src="https://www.xpressmoney.com/storage/partner_logos/M-%20lhuillier-%20Philippines5c027382baa21.png" alt="M Lhuillier"></li>
                     </ul>
                 </div>
                 <div id="language" class="col">
@@ -196,5 +248,6 @@
                 <p>Weebpage &copy; 2022</p>
           </div>
         </div>
+        <script src="javascript/index-script.js"></script>
       </body>
 </html>
