@@ -55,7 +55,10 @@
     object-fit:cover;
 }
 #recents, #recents h3{
-    padding-top: 20px;
+    margin-top: 20px;
+    background-color: #f0f6f8;
+    border-radius: 10px;
+    padding-top: 1px;
 }
 #recents a{
     color: #636363;
