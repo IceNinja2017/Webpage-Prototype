@@ -48,9 +48,6 @@ section button{
     transition: opacity 0.3s;
     box-shadow: 0 5px 5px rgba(0,0,0,0.4);
 }
-#input-btn{
-    
-}
 .chat-btn{
     position: fixed;
     right:50px;
@@ -131,7 +128,7 @@ section button{
 .input-area{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #msg input[type="text"]{
