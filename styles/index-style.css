@@ -124,11 +124,10 @@ section button{
     top:-10px;
     right: -10px;
 }
-
 .input-area{
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #msg input[type="text"]{
@@ -183,7 +182,10 @@ section button{
     .chat-popup{
         bottom: 120px;
         right:10%;
-        width: 80vw;
+        width: 65vw;
+    }
+    .input-area{
+        
     }
 }
 /* Body */
