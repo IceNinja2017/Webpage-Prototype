@@ -10,3 +10,7 @@ A Prototype for a Bartering Webpage, this is a school project as for our Final D
 - John Kennth (Full Stack:HTML)
 - Paul (Back-end:Javascript)
 ### Testing and Debugging:
+- Salderter P. Lopez
+- Fred Joshua Y. Conopio
+### Documentation:
+- Mark Gabriel C. Palompon
