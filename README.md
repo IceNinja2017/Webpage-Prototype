@@ -7,6 +7,6 @@ A Prototype for a Bartering Webpage, this is a school project as for our Final D
 - Samantha (Front-end:CSS)
 - Alrich (Visual)
 ### Coding:
-- John Kennth (Front-end:HTML)
+- John Kennth (Full Stack:HTML)
 - Paul (Back-end:Javascript)
 ### Testing and Debugging:
